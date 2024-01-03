@@ -12,7 +12,8 @@ internal sealed class SecurityCommand
         : base(
             DecryptCommand.GetCommand(),
             EncryptCommand.GetCommand(),
-            GenerateAesIvCommand.GetCommand())
+            GenerateAesIvCommand.GetCommand(),
+            GenerateBytesCommand.GetCommand())
     {
     }
 }
